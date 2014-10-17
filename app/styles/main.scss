@@ -1,0 +1,109 @@
+@import "compass_twitter_bootstrap";
+@import "compass_twitter_bootstrap_responsive";
+
+.footer {
+  font-size: 10px;
+  margin-top: 15px;
+  }
+
+h2 {
+  line-height: 30px;
+}
+
+.chart-tooltip {
+  background-color: white;
+}
+
+.span4 {
+  margin-top: -10px;
+}
+
+.list.btn {
+  margin-bottom: 15px;
+}
+
+#script-list {
+  font-weight:bold;
+}
+
+.noscript.span12 {
+  position:relative;
+  width: 410px !important;
+  top: 230px;
+}
+
+#warning {
+  display: none;
+}
+
+@media (min-width: 568px) {
+
+  .sb-fixed {
+    width: 450px;
+    position: fixed;
+  } 
+
+  .span4 {
+    position: relative;
+    left: 550px;
+    top: 20px;
+  }
+
+  #script-textarea {
+    width: 500px !important;
+    height: auto !important;
+    overflow: hidden !important;
+    font-size: 10px;
+  }
+
+  .modal-footer {
+    background: white;
+  }
+
+
+} 
+
+
+@media (max-width: 568px), (max-height: 560px) { 
+
+  .sb-fixed {
+    font-size: 12px;
+  }
+
+  #piechart {
+    display: none;
+  }
+
+  #warning {
+  display: block;
+  color: red;
+  margin: 10px 0 10px 0;
+}
+
+  h2 {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0px;
+  }
+
+  #modal-button {
+    font-size: 12px;
+  }
+
+}
+
+
+
+@media (min-width: 568px) and (max-width: 725px) { 
+
+  .span4 {
+    position: relative;
+    left: 485px;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 2px;
+  }
+}
